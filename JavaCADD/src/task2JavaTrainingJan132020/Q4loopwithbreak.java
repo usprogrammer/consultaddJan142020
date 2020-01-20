@@ -11,8 +11,8 @@ public class Q4loopwithbreak {
 				//			If user enters a negative number just break the loop and print “It’s Over”
 				//			If user enters a positive number just continue in the loop and print “Good Going”
 
-				int x = 1;
-				while(x>0){
+				
+				while(true){
 					System.out.println("Enter a number: ");
 					@SuppressWarnings("resource")
 					Scanner num = new Scanner(System.in);
