@@ -10,21 +10,18 @@ public class AddAmount {
 //		Create object of the 'AddAmount' class and display the final amount in Saving Box.
 //		Also, create a method that can display how many transactions are done on the Saving Box.
 	
-	int amount = 50;
+	static int amount = 50;
 	static int count = 0;
-	static int total = 0;
 	
 	public AddAmount(){
-		System.out.println("The final amount is: " + this.total);
 		count++;
-		total = total + amount;
+		System.out.println("The final amount is: " + this.amount);
 	}
 	
 	public AddAmount(int amount){
-		this.amount = this.amount + amount;
-		System.out.println("The final amount is: " + this.total);
 		count++;
-		total = total + amount;
+		this.amount = this.amount + amount;
+		System.out.println("The final amount is: " + this.amount);
 	}
 	
 	public static int gettotaltrans(){
@@ -34,9 +31,12 @@ public class AddAmount {
 	
 	public static void main(String[] args) {
 		AddAmount add1 = new AddAmount();
+		AddAmount addx = new AddAmount();
+		AddAmount addy = new AddAmount();
 		AddAmount add2 = new AddAmount(50);
 		AddAmount add3 = new AddAmount(100);
 		AddAmount add4 = new AddAmount(150);
+		AddAmount addz = new AddAmount();
 		AddAmount add5 = new AddAmount(200);
 		AddAmount add6= new AddAmount(50);
 		System.out.println(AddAmount.gettotaltrans());
