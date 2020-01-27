@@ -1,7 +1,7 @@
 package task5JavaTrainingJan232020;
 
 public class AddAmount {
-	//Program by Mark on Jan 23 2020
+	//Program by Mark on Jan 26 2020
 //	Suppose you have a Saving Box with an initial amount of $50 and you have to add 
 //	some more to it. Create a class 'AddAmount' with a data member named 'amount' with an
 //	initial value of $50. Now make two constructors of this class as follows:
